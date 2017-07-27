@@ -1,0 +1,101 @@
+.thumbnail img {
+    max-height: 150px;
+}
+
+.thumbnail .description {
+    color: #7f7f7f;
+}
+
+h4{
+	text-align: center;
+	text-decoration: none;
+	color: #777;
+}
+
+h3{
+	text-align: left;
+	text-decoration: none;
+	color: #777;
+}
+
+p{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+h2{
+	text-align: left;
+	padding-top: 0px;
+	text-decoration: none;
+	color: #777;
+}
+
+.price {
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.hero {
+	background-color: transparent;
+	padding:1px 30%;
+	background-position:center;
+	background-size:cover;
+	padding-bottom: 20px;
+	text-align:center
+}
+
+.batas{
+	padding:0px 39%;
+
+	padding-bottom: 60px;
+	padding-top: 40px;
+	
+}
+
+@media (min-width: 43.75em) {
+	.hero .logo {
+		max-width:600px
+	}
+}
+@media (max-width: 43.6875em) {
+	.hero h1 {
+		font-size:20px;
+		font-size:1.25rem;
+		margin-bottom:12px;
+		font-weight:500
+	}
+}
+@media (min-width: 43.75em) {
+	.hero h1 {
+		margin-bottom:24px
+	}
+}
+.hero .tagline {
+	font-size:15px;
+	font-size:0.9375rem;
+	letter-spacing:0.1em;
+	text-transform:uppercase
+}
+@media (min-width: 43.75em) {
+	.hero .tagline {
+		font-size:24px;
+		font-size:1.5rem;
+		font-weight:300
+	}
+}
+
+.footer {
+			position: relative;
+    clear:both;
+   }
+
+ .pilihan{
+ 	color: #777;
+ 	float: left;
+ 	line-height: 20px;
+ 	font-size: 18px;
+ 	padding-top: 19px;
+ 	padding-right: 30px;
+ 	padding-left: 10px;
+ 	padding-bottom: 20px;
+ }
